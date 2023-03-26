@@ -11,144 +11,161 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8a7333b916.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <title>fern&ficus</title>
 </head>
 
 <body>
 
+    <div class="site">
 
-    <nav class="navbar">
+        <nav class="navbar">
 
-        <div class="logo">
-            fern<span class="logo-gold">&</span>ficus
-        </div>
+            <!-- LOGO -->
 
-        <div class="navbar-items">
-            <div class="nav-items">
-                about
-            </div>
-            <div class="nav-items">
-                contact
-            </div>
-            <div class="menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
+            <div class="logo">fern<span class="logo-gold">&</span>ficus</div>
 
-    </nav>
+            <!-- NAVIGATION MENU -->
 
+            <ul class="nav-links">
 
-    <div class="content">
+                <!-- USING CHECKBOX HACK -->
 
-        <div class="hero">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
-            <div class="description">
-                <div class="category">
-                    <h2>Blog</h2>
+                <!-- NAVIGATION MENUS -->
+
+                <div class="menu">
+                    <li><a href="/">about</a></li>
+                    <li><a href="/">contact</a></li>
+
+                    <!-- DROPDOWN MENU -->
+
+                    <ul class="dropdown">
+                        <li><a href="/">about</a></li>
+                        <li><a href="/">contact</a></li>
+                        <li><a href="/">blog</a></li>
+                        <li><a href="/">youtube</a></li>
+                        <li><a href="/">store</a></li>
+                    </ul>
+                    </li>
                 </div>
-                <div class="title-large">
-                    <h1>My puppies love to sleep more than I do, and I think that's okay?</h1>
-                </div>
-                <div class="buttons-blog">
-                    read article
-                </div>
-            </div>
-        </div>
 
+            </ul>
 
-        <div class="links">
+        </nav>
+        <main>
+            <div class="content">
 
-            <div class="blog">
-                <div class="description">
-                    <div class="link-category">
-                        <h4>Blog</h4>
-                    </div>
-                    <div class="title-large">
-                        <h3>These are my thoughts</h3>
-                    </div>
-                </div>
-            </div>
+                <div class="hero">
 
-            <div class="youtube">
-                <div class="description">
-                    <div class="link-category">
-                        <h4>YouTube</h4>
-                    </div>
-                    <div class="title-large">
-                        <h3>Check out my channel</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="store">
-                <div class="description">
-                    <div class="link-category">
-                        <h4>Store</h4>
-                    </div>
-                    <div class="title-large">
-                        <h3>My dog is our lead designer</h3>
+                    <div class="description">
+                        <div class="category">
+                            <h2>Blog</h2>
+                        </div>
+                        <div class="title-large">
+                            <h1>My puppies love to sleep more than I do, and I think that's okay?</h1>
+                        </div>
+                        <div class="buttons-blog">
+                            read article
+                        </div>
                     </div>
                 </div>
 
+
+                <div class="links">
+
+                    <div class="blog">
+                        <div class="description">
+                            <div class="link-category">
+                                <h4>Blog</h4>
+                            </div>
+                            <div class="title-large">
+                                <h3>These are my thoughts</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="youtube">
+                        <div class="description">
+                            <div class="link-category">
+                                <h4>YouTube</h4>
+                            </div>
+                            <div class="title-large">
+                                <h3>Check out my channel</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="store">
+                        <div class="description">
+                            <div class="link-category">
+                                <h4>Store</h4>
+                            </div>
+                            <div class="title-large">
+                                <h3>My dog is our lead designer</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="footernav">
+                <div class="footer menu-links">
+                    <h5>Menu</h5>
+                    <ul>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Blog</li>
+                        <li>YouTube</li>
+                        <li>Store</li>
+                    </ul>
+                </div>
+
+                <div class="footer contact">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li>Email</li>
+                    </ul>
+                </div>
+
+                <div class="footer contact">
+                    <h5>Social Media</h5>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Pinterest</li>
+                        <li>TikTok</li>
+                        <li>YouTube</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
             </div>
 
 
-
-        </div>
-
-
-
-
+            <div class="fernficus">
+                <div>All rights reserved. Copyright © 2023 fern&ficus </div>
+                <div>built by <a href="https://www.jjcx.dev" class="jjcx">jjcx</a></div>
+            </div>
 
 
+        </footer>
 
     </div>
-
-
-    <footer>
-
-        <!-- <div class="footernav">
-            <div class="footer menu-links">
-                <h5>Menu</h5>
-                <ul>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Blog</li>
-                    <li>YouTube</li>
-                    <li>Store</li>
-                </ul>
-            </div>
-
-            <div class="footer contact">
-                <h5>Contact</h5>
-                <ul>
-                    <li>Email</li>
-                </ul>
-            </div>
-
-            <div class="footer contact">
-                <h5>Social Media</h5>
-                <ul>
-                    <li>Instagram</li>
-                    <li>Pinterest</li>
-                    <li>TikTok</li>
-                    <li>YouTube</li>
-                    <li>Twitter</li>
-                </ul>
-            </div>
-        </div> -->
-
-
-        <!-- <div class="fernficus">
-            <div>Copyright © 2023 fern&ficus. All rights reserved.</div>
-            <div>built by <a href="https://www.jjcx.dev" class="jjcx">jjcx</a></div>
-        </div> -->
-
-
-    </footer>
-
-
 
 </body>
 
