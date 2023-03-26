@@ -1,0 +1,340 @@
+@import url(//db.onlinewebfonts.com/c/a959448c957069dae7d52078616ebdc8?family=Architype+Bayer-type);
+
+@font-face {
+    font-family: "Architype Bayer-type";
+    src: url("//db.onlinewebfonts.com/t/a959448c957069dae7d52078616ebdc8.eot");
+    src: url("//db.onlinewebfonts.com/t/a959448c957069dae7d52078616ebdc8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a959448c957069dae7d52078616ebdc8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a959448c957069dae7d52078616ebdc8.woff") format("woff"), url("//db.onlinewebfonts.com/t/a959448c957069dae7d52078616ebdc8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a959448c957069dae7d52078616ebdc8.svg#Architype Bayer-type") format("svg");
+}
+
+
+:root {
+    --logo: "Architype Bayer-type", serif;
+    --text: 'Jost', sans-serif;
+
+    --gold: #DC9B1C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-height: 100%;
+    font-size: clamp(8px, 1.5vw, 16px);
+}
+
+body {
+    margin: 0;
+}
+
+
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 6.5625rem;
+    line-height: 100%;
+    color: white;
+    text-shadow: 0px 2px 20px #111111;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: white;
+    padding-bottom: 2rem;
+    text-shadow: 0px 2px 10px #111111;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 3.125rem;
+    line-height: 100%;
+    color: white;
+    padding-bottom: 2rem;
+    text-shadow: 0px 2px 10px #111111;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 100%;
+    color: white;
+    padding-bottom: 2rem;
+    text-shadow: 0px 2px 10px #111111;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    line-height: 100%;
+    color: white;
+    padding-bottom: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* NAVBAR */
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    z-index: 999;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.logo {
+    font-family: var(--logo);
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-gold {
+    color: var(--gold);
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+    max-width: calc(100% - 200px);
+}
+
+.nav-items {
+    white-space: nowrap;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.menu {
+    font-size: 1.5rem;
+    color: var(--gold);
+
+}
+
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    /* padding: 96px 2rem 96px 2rem; */
+    min-height: 100vh;
+    margin: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.hero {
+    flex-basis: 70%;
+    /* flex: 1; */
+    border-radius: 5rem;
+    display: flex;
+    padding: 2rem;
+    background-image: url(/imgs/IMG_2489.jpg);
+    background-size: cover;
+    background-position: bottom, center;
+}
+
+.description {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+    border-radius: 5rem;
+    padding-left: 2rem;
+    gap: 2rem;
+    /* flex: 1; */
+}
+
+.blog,
+.youtube,
+.store {
+    height: 100%;
+    width: 100%;
+    border-radius: 2.5rem;
+    background-size: cover;
+    background-position: center, center;
+}
+
+.blog {
+    background-image: url(imgs/IMG_2863.jpg);
+
+}
+
+.youtube {
+    background-image: url(imgs/IMG_3061.jpg);
+
+}
+
+.store {
+    background-image: url(imgs/IMG_2781.jpeg);
+
+}
+
+.buttons-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 100%;
+    color: var(--gold);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    width: 12rem;
+}
+
+.title-large {
+    display: flex;
+    align-content: bottom;
+}
+
+.category {
+    padding-bottom: 2rem;
+}
+
+.link-category {
+    padding-bottom: 1rem;
+}
+
+
+
+
+footer {
+    display: flex;
+    background-color: var(--gold);
+    padding: 2rem;
+    padding-top: 4rem;
+
+}
+
+.footernav {
+
+    display: flex;
+    /* justify-content: flex-start; */
+    gap: 4rem;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.footer {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+}
+
+.fernficus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+}
+
+.jjcx {
+    text-decoration: none;
+    color: white;
+}
+
+.jjcx:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.jjcx:hover,
+:active {
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    /* body {
+        padding-bottom: 20rem;
+    } */
+
+    .content {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        max-height: calc(100vh - 64px);
+        /* padding-bottom: 20rem; */
+    }
+
+    .hero {
+        height: 600px;
+    }
+
+    .links {
+        /* height: 500px; */
+        justify-items: center;
+        padding-left: 0;
+        padding-top: 10rem;
+        gap: 5rem;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .blog,
+    .youtube,
+    .store {
+        height: 300px;
+    }
+
+}
